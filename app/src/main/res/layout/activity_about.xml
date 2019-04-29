@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/icon_size"
+                android:adjustViewBounds="false"
+                android:contentDescription="@string/app_name"
+                android:cropToPadding="false"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/pit_engineer_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/app_name_pretty"
+                android:textColor="@android:color/background_light"
+                android:textSize="@dimen/answer_text"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingLeft="@dimen/fab_margin"
+                android:paddingRight="@dimen/fab_margin"
+                android:text="@string/about"
+                android:textSize="@dimen/description_size" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:contentDescription="@string/seperatordesc"
+                android:scaleType="fitXY"
+                app:srcCompat="@android:drawable/bottom_bar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Version"
+                android:textColor="@android:color/background_light"
+                android:textSize="@dimen/answer_text"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtVersion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textSize="@dimen/description_size"
+                tools:text="@tools:sample/date/hhmm" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:contentDescription="@string/seperatordesc"
+                android:scaleType="fitXY"
+                app:srcCompat="@android:drawable/bottom_bar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="See my other work"
+                android:textColor="@android:color/background_light"
+                android:textSize="@dimen/answer_text"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/portfolio"
+                android:textSize="@dimen/description_size" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:contentDescription="@string/seperatordesc"
+                android:scaleType="fitXY"
+                app:srcCompat="@android:drawable/bottom_bar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Photos from"
+                android:textColor="@android:color/background_light"
+                android:textSize="@dimen/answer_text"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="www.pexels.com"
+                android:textSize="@dimen/description_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="www.unsplash.com"
+                android:textSize="@dimen/description_size" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

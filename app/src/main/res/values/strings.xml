@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PitEngineer</string>
+    <string name="title_activity_main">Pit Engineer</string>
+    <string name="title_activity_about">About</string>
+    <string name="app_name_pretty">Pit Engineer Mobile</string>
+    <string name="seperatordesc">seperator</string>
+    <string name="portfolio">www.geertcocu.nl</string>
+    <string name="about">Pit Engineer is created out of my passion for racing, this app is based of features and experience from games I\'ve played. It is designed to be used in any racing game that supports tweaking the car setup, however, it can also be applied to real world scenarios.</string>
+</resources>
