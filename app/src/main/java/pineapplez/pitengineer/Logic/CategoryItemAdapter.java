@@ -47,6 +47,9 @@ public class CategoryItemAdapter extends ArrayAdapter<CategoryItem> {
             case "Gearing":
                 imgRes = R.drawable.img_gearing;
                 break;
+            case "Wheels":
+                imgRes = R.drawable.img_wheels;
+                break;
             default:
                 imgRes = R.drawable.ic_launcher_background;
                 break;

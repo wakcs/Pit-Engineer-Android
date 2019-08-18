@@ -5,7 +5,7 @@ android {
         ReleaseConfig {
             keyAlias 'PitEngineer'
             keyPassword 'CVEBRwoM6GZQxxunnJyS'
-            storeFile file('D:/Development/AndroidStudioProjects/Key stores/KeyStore1.jks')
+            storeFile file('D:\\Data\\Drive\\KeyStores\\KeyStore1.jks')
             storePassword 'd8XnhoX7dSH2ogikjEzb'
         }
     }
@@ -15,7 +15,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
-        versionName "1.0.0"
+        versionName '1.1.0'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
